@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FA89EB"
+    >
+
+    <TextView
+        android:id="@+id/tvFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calspeed"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvWhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/where"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speedform"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speedexp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entermassobj"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvVelocity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entervelobj"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etVelocity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnMomentum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calmomentum" />
+
+    <EditText
+        android:id="@+id/etAnsMom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home" />
+
+</LinearLayout>

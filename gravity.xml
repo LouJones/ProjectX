@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2E963" >
+
+    <TextView
+        android:id="@+id/tvFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calgrav"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gravform"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gravexp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvMassG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entermass"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etMassG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvGravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enteraccel"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etGravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnGravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calgrav" />
+
+    <EditText
+        android:id="@+id/etAnsGravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home" />
+
+</LinearLayout>
