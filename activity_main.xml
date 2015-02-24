@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.physics.MainActivity" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+    >
+       
+<TableRow
+            android:id="@+id/trMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/physics"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:gravity="center_horizontal"
+                android:textSize="25sp"
+                />
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calcurrent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical"/>
+
+            <ImageButton
+                android:id="@+id/ibtnCurrent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/current" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tvRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caldistance"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:gravity="center_vertical"
+                />
+
+            <ImageButton
+                android:id="@+id/ibtnDistance2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/distance"
+                android:gravity="center_vertical" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calforces"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical" />
+
+            <ImageButton
+                android:id="@+id/ibtnForces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forces"
+                android:gravity="center_vertical" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calgrav"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical" />
+
+            <ImageButton
+                android:id="@+id/ibtnGravity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gravity"
+                android:gravity="center_vertical" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calspeed"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical" />
+
+            <ImageButton
+                android:id="@+id/ibtnSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/speed" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
