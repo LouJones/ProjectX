@@ -77,6 +77,25 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Contact"
+            android:label="@string/contact" >
+            <intent-filter>
+                <action android:name="com.example.physics.CONTACT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Youtube"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.physics.YOUTUBE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
+
